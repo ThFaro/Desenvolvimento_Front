@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FeatureComponent } from './feature.component';
+import { IMCComponent } from './imc.component';
 
-describe('FeatureComponent', () => {
-  let component: FeatureComponent;
-  let fixture: ComponentFixture<FeatureComponent>;
+describe('IMCComponent', () => {
+  let component: IMCComponent;
+  let fixture: ComponentFixture<IMCComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FeatureComponent ]
+      declarations: [ IMCComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FeatureComponent);
+    fixture = TestBed.createComponent(IMCComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

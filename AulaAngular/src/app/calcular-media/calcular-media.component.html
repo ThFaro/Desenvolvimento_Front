@@ -1,0 +1,23 @@
+<div class="form-group">
+    <label for="ac1">AC1</label>
+    <input type="number" class="form-control" [(ngModel)]="ac1">
+  </div>
+  <div class="form-group">
+    <label for="ac2">AC2</label>
+    <input type="number" class="form-control" [(ngModel)]="ac2">
+  </div>
+  <div class="form-group">
+    <label for="ag">AG</label>
+    <input type="number" class="form-control" [(ngModel)]="ag">
+  </div>
+  <div class="form-group">
+    <label for="af">AF</label>
+    <input type="number" class="form-control" [(ngModel)]="af">
+  </div>
+  <button class="btn btn-primary" (click)="calcularMedia()">Calcular</button>
+  
+  <div *ngIf="resultado !== null">
+    <p>Média final: {{media}}</p>
+    <p>Status: {{resultado}}</p>
+  </div>
+  
